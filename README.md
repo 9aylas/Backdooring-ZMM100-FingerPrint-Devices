@@ -17,5 +17,6 @@ The fingerprint access control device Made by ZKSoftware.
  
 ## Demo :
 
-[linkname](https://https://www.youtube.com/watch?v=Zd1N0CbvR0k&feature=youtu.be)
+![image alt text](https://i.imgur.com/lxZCj4Z.png)
+[Watch Me](https://https://www.youtube.com/watch?v=Zd1N0CbvR0k&feature=youtu.be)
 
