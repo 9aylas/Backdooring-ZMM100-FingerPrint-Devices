@@ -47,9 +47,11 @@ SQLite ELF File : "/mnt/mtdblock/data/sqlite3_arm" --> ./sqlite3_arm ZKDB.db;
 
 ### Insert / Delete DATA :
 
-> Insert : ./sqlite3_arm ZKDB.db "INSERT INTO ATT_LOG VALUES (null,__'1224__,15,__'2019-04-12T00:00:00'__,'0','0',null,null,null,null,0);"
-> Delete log : ./sqlite3_arm ZKDB.db "DELETE FROM ATT_LOG WHERE ID = __1224__;"
-> Shit its amazing 3:) !
+>- Insert : ./sqlite3_arm ZKDB.db "INSERT INTO ATT_LOG VALUES (null,__'1224__,15,__'2019-04-12T00:00:00'__,'0','0',null,null,null,null,0);"
+
+>- Delete log : ./sqlite3_arm ZKDB.db "DELETE FROM ATT_LOG WHERE ID = __1224__;"
+
+- Shit its amazing 3:) !
 
 
  #### References :
